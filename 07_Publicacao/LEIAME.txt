@@ -1,0 +1,87 @@
+﻿PRETTY SOLDIER SAILOR MOON (arcade, Gazelle/Banpresto, 1995) - TRADUÇÃO PARA PORTUGUÊS DO BRASIL
+Versão 1.0
+
+Tradução e hacking: Daniel Figueira
+
+
+O QUE FOI TRADUZIDO
+-------------------
+Só o texto do programa do jogo (70 textos), em português do Brasil:
+- Interface: Cred., Insira Ficha, Pulse Start, Selecione, Continua?, Aguarde...,
+  Seu Nome, RECORDES e POPULARIDADE.
+- Aviso legal da tela de abertura.
+- Fases: "FASE n COMECA", "CHEFE", "ZERADA", "FASE FINAL", "OS 4 GRANDES" e
+  "ULTIMO CHEFE".
+- Cargos dos créditos da equipe.
+
+LIMITAÇÕES (leia antes de postar dúvidas)
+-----------------------------------------
+- NÃO HÁ ACENTOS. O jogo trata os bytes acima de 0x80 como caracteres
+  japoneses e desenharia lixo na tela; por isso o texto é em ASCII
+  ("COMECA", "operacao", "ULTIMO").
+- Continuam em inglês: nomes de pessoas, de chefes e das heroínas, os golpes do
+  modo de teste, os menus de teste/configuração da máquina e os logos
+  (que são gráficos).
+- Jogo de 1 a 2 jogadores (não existe versão para 3 jogadores).
+
+
+QUAL ARQUIVO USAR
+-----------------
+O conjunto "sailormnu" do MAME/FBNeo (Pretty Soldier Sailor Moon, versão USA,
+já em inglês). O patch muda UM arquivo do conjunto: bpsm945a.u45
+(programa do 68000). Os outros 17 arquivos continuam iguais.
+
+Arquivo ORIGINAL (antes do patch):
+  bpsm945a.u45   524288 bytes
+  CRC32  898C9515
+  MD5    CF810FAA9E13CCC2CC0DAEABC4C6C2F3
+  SHA-1  0FE8D7F13F5CFE2F6E79A0A21B2E8E7E70E65C4B
+
+Arquivo DEPOIS do patch:
+  bpsm945a.u45   524288 bytes (mesmo tamanho)
+  CRC32  D429F659
+  MD5    516961D9A6F7316961DA9083F5C55A8B
+  SHA-1  8C7C186A19C8AA2022E2582B2333364F70527669
+
+
+COMO APLICAR
+------------
+1. Descompacte o seu sailormnu.zip numa pasta.
+2. Aplique o patch no arquivo bpsm945a.u45:
+   - SailorMoon_Arcade_PTBR_u45.bps (recomendado: confere o CRC do original), ou
+   - SailorMoon_Arcade_PTBR_u45.ips
+   (por exemplo, com o Floating IPS ou o ROM Patcher JS).
+3. Compacte de novo todos os arquivos (sem pasta dentro do zip) com o nome
+   sailormnu.zip. Confira o CRC32 do u45 com a tabela acima.
+
+
+COMO JOGAR
+----------
+- MAME: o MAME avisa que um arquivo tem checksum diferente do esperado.
+  É normal num jogo traduzido; o jogo roda. O teste de memória do início mostra
+  "Program ROM ... Good" (a soma do arquivo foi corrigida no patch).
+- RetroArch com o núcleo FBNeo (também no Switch): o FBNeo recusa arquivos com
+  CRC diferente, mas aceita conjuntos modificados numa pasta especial:
+    1. deixe o sailormnu.zip ORIGINAL na pasta de ROMs, como sempre;
+    2. faça um sailormnu.zip só com o bpsm945a.u45 traduzido e coloque em
+       <pasta "system" do RetroArch>/fbneo/patched/sailormnu.zip
+       (no Switch: /retroarch/cores/system/fbneo/patched/sailormnu.zip);
+    3. nas opções do núcleo, ative "Allow patched romsets" (já vem ligado);
+    4. abra o sailormnu.zip original normalmente.
+  Com essa opção ativa, as conquistas (RetroAchievements) ficam desligadas.
+- Controles (padrão do RetroArch/FBNeo): moeda = Select, Start = Start.
+
+A ROM não é distribuída aqui: use o seu próprio conjunto.
+
+
+TESTES
+------
+Testado no MAME 0.289 e no Switch (RetroArch/FBNeo), com o jogo zerado do
+começo ao fim.
+
+
+CRÉDITOS
+--------
+Jogo original: Pretty Soldier Sailor Moon (C) 1995 Banpresto / Gazelle,
+baseado na obra de Naoko Takeuchi (Kodansha, Toei Animation).
+Tradução e hacking: Daniel Figueira.

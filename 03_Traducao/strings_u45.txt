@@ -1,0 +1,231 @@
+# Textos em ASCII do programa 68000 (bpsm945a.u45, bytes trocados dois a dois)
+# offset = posicao no arquivo ja trocado (01_ROM/u45_bytes_trocados.bin); tam = tamanho da cadeia
+
+## UI basica (Credit, Deposit Coin, Press Start, Continue, Game Over...)
+064DC   9  NuCredit 
+064E6   8  Credits 
+064EF   9  Free Play
+064F9  12  Deposit Coin
+06506  11  Press Start
+06512  13  Select Player
+06520  10  Continue? 
+0652B   9  Game Over
+06535  14  Wait Please...
+06544  10  Name Entry
+
+## nomes dos golpes e personagens (demo)
+22731  17  Moon Tiara Action
+22743  19  Moon Feather Attack
+2275C  19  Moon Twilight Flash
+22770  24  Moon Sparkling Sensation
+22789  11  Sabon Spray
+22795  20  Sabon Spray Freezing
+227AA  11  Mirage Wave
+227B6  17  Shine Aqua Cutter
+227C8  15  Splash Launcher
+227D8   9  Fire Soul
+227E2  14  Akuryou Taisan
+227F1   5  Ikari
+227F7  14  Phobos & Demos
+22806  12  Running Fire
+22813  15  Supreme Thunder
+22823  12  Jupiter Kick
+22835  16  Flower Hurricane
+22846  11  Rose Bomber
+22852  13  Crescent Beam
+22865  10  Venus Kick
+22870  19  Venus Love-Me Chain
+22884  23  Rolling Heart Vibration
+2289C  21  Tuxeed Mask (Attract)
+228B2  21  Sailor Moon (Attract)
+228C8  24  Sailor Mercury (Attract)
+228E1  21  Sailor Mars (Attract)
+228F7  24  Sailor Jupiter (Attract)
+22910  22  Sailor Venus (Attract)
+22927  11  Queen Beril
+22933   9  Ending #1
+
+## menu de teste e de configuracao (operador)
+22CEC  21  NuBPSM Test Mode Menu
+22D02  18  BG0 Character Test
+22D15  18  BG1 Character Test
+22D28  18  BG2 Character Test
+22D3B  11  Object Test
+22D47  13  Map Area Test
+22D55  14  World Map Test
+22D64  20  Animation Frame Test
+22D79  14  Animation Test
+22D88  11  Window Test
+22D94  12  Game Setting
+22DA1  10  Sound Test
+22DAC  17  Exit to Game Mode
+22DBE   5  Code 
+22DC4   6  Code $
+22DCB  11  Attribute $
+22DD7  10  H-Offset $
+22DE2  10  V-Offset $
+22DED   9  BG0 Area 
+22DF7   9  BG1 Area 
+22E01   6  Scene 
+22E08  12  H-Position $
+22E15  12  V-Position $
+22E22   6  Frame 
+22E29   6  Bank $
+22FC3   5  &SA;A
+232AA  13  Game Settings
+232B8  13  Coin1 Setting
+232C6  13  Coin2 Setting
+232D4  13  Freeplay Mode
+232E2  11  Screen Flip
+232EE  11  Description
+232FA  12  Player Count
+23307  15  Game Difficulty
+23317  16  Sound on Attract
+23328  16  Destination Area
+23339  26  Restore to Factory Setting
+23354  27  Restore to Previous Setting
+23370  19  Save & Exit to Game
+23384  13  1 Coin 1 Play
+23392  13  1 Coin 2 Play
+233A0  13  1 Coin 3 Play
+233AE  13  1 Coin 4 Play
+233BC  13  2 Coin 1 Play
+233CA  13  2 Coin 3 Play
+233D8  13  3 Coin 1 Play
+233E6  13  3 Coin 2 Play
+233FB   6  Normal
+23402  11  Upside Down
+2340E  11  in Japanese
+2341A  10  in English
+2342B  10  Extra Easy
+23436   9  Very Easy
+23445  11  Medium Easy
+23451  11  Medium Hard
+23462   9  Very Hard
+2346C  10  Extra Hard
+23477   5  Japan
+
+## aviso legal (Notice)
+23855  20  This game is for use
+2386A  15  exclusively in 
+2387C  34  The sale, export, use or operation
+2389F  19  of this outside of 
+238B3  21  may be a violation of
+238C9  34  international copyright, trademark
+238EC  32  or other related laws subjecting
+2390D  32  the violator to legal penalties.
+2392E  15  @Banpresto 1995
+
+## creditos da tela de titulo
+23DD3  15  \PRETTY SOLDIER
+23DE3  24  @Naoko Takeuchi.Kodansha
+23DFC  23  .TVAsahi.Toei Animation
+23E14  15  @Banpresto 1995
+23E24  35  @N.Takeuchi.Kodansha.Toei Animation
+23E48  21  Program Code @Gazelle
+23E5E  15  @Banpresto 1995
+
+## SCORE RANKING / CHARACTER CONTEST
+245EE  13  SCORE RANKING
+24610  17  CHARACTER CONTEST
+
+## creditos da equipe (Video Game Staff)
+25800   6  rvisor
+25808  14  Naoko Takeuchi
+2581A  15  Also Supervisor
+2582B  11  Fumio Osano
+2583A  18  Executive Producer
+2584E  17  Kisaburoh Higashi
+25863   8  Producer
+2586D  11  Johan Satoh
+2587C  18  Total Co-ordinator
+25890  19  Toshifumi Kawashima
+258A7   8  Director
+258B1  17  Hiroyuki Fujimoto
+258C6  12  Art Director
+258D4  15  Satoshi Iwataki
+258E7  15  Art Co-director
+258F8  18  Toshinobu Komazawa
+2590E  16  Graphic Designer
+25920  29  Mihoko Sudoh      Kumi Kayama
+2593E  31  Otokazu Eda      Noboru Inamoto
+2595E  29  Yuhko Tataka      Junya Inoue
+2597C  32  Shingo Ishikawa  Masayuki Ohsumi
+2599D  29  Mikio Yamagchi  Tohru Iwataki
+259BE  18  Animation Director
+259D2  13  Kensei Sasaki
+259E3  22  Animation Art Director
+259FB  13  Kazuko Tadano
+25A0C   8  Animator
+25A16  17  Hiromi Matsushita
+25A28  11  Studio Live
+25A37  19  Animation Digitizer
+25A4C  29  Miki Higuchi    Hiroko Koyano
+25A6A  29  Mutsuo Danki   Mayumi Onodera
+25A8B  14  Music Composer
+25A9B  15  Seiichi Sakurai
+25AAE  15  Character Voice
+25ABF  16  Kotono Mitsuishi
+25AD0  12  Aya Hisakawa
+25ADD  15  Michie Tomizawa
+25AED  13  Emi Shinohara
+25AFB  11  Rika Fukami
+25B0A  12  Sound Effect
+25B18  16  Yoshitatsu Sakai
+25B2C  19  Hardware Supervisor
+25B41  14  Hideki Ikinaga
+25B53  21  Hardware Co-ordinator
+25B6A  15  Kazuhisa Takasu
+25B7D  17  Hardware Designer
+25B90  18  Hiroyuki Nagayoshi
+25BA6  20  All Program Works by
+25BBC  17  Hiroyuki Fujimoto
+25BD1  17  Special Thanks to
+25BE4  14  Hiroshi Takeda
+25BF3  11  Iriya Azuma
+25BFF  16  Munehisa Higuchi
+25C11  16  Haruhisa Udagawa
+25C22  15  Akira Nagamatsu
+25C32  18  Kunihito Hiramatsu
+25C45  11  Masaki Onda
+25C56  13  Game Designer
+25C65  35  Hiroyuki Fujimoto   Satoshi Iwataki
+25C8E  35  Developped by Gazelle Co.,Ltd. 1995
+25CB8  35  Produced by Banpresto Co.,Ltd. 1995
+
+## textos das fases (ROUND n START/BOSS/CLEAR, chefes)
+30408   8  Rn".0.".
+30476  13  ROUND 1 START
+3068C  12  ROUND 1 BOSS
+306AE  13  KASTOL & POLX
+30808  13  ROUND 1 CLEAR
+3089E  13  ROUND 2 START
+30CC4  12  ROUND 2 BOSS
+30CE6   5  MORGA
+30FA8  13  ROUND 2 CLEAR
+31048  13  ROUND 3 START
+315F2  12  ROUND 3 BOSS
+31614   7  KYULENE
+318BA  13  ROUND 3 CLEAR
+31946  13  ROUND 4 START
+324E6  12  ROUND 4 BOSS
+32508   7  GAROBEN
+326C8  13  ROUND 4 CLEAR
+32764  13  ROUND 5 START
+32F90  12  ROUND 5 BOSS
+32FB2   7  ZOISAIT
+330E2  13  ROUND 5 CLEAR
+33178  13  ROUND 6 START
+3374A  12  ROUND 6 BOSS
+3376C  12  TWIN KYULENE
+33812  13  ROUND 6 CLEAR
+338A8  13  ROUND 7 START
+3401C  12  ROUND 7 BOSS
+3403E   6  BAKENE
+3412C  13  ROUND 7 CLEAR
+341C2  17  FINAL ROUND START
+3453C  12  THE BIG FOUR
+3455E  16  ZOISAIT & KNZAIT
+3482E  13  THE LAST BOSS
+34850  11  QUEEN BERIL
+34900  17  FINAL ROUND CLEAR

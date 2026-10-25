@@ -1,0 +1,30 @@
+TÍTULO: [ARCADE] Pretty Soldier Sailor Moon [PT-BR]
+SEÇÃO: Lançamentos
+
+Tradução para português brasileiro de [b]Pretty Soldier Sailor Moon[/b] (fliperama, Gazelle/Banpresto, 1995) — o beat 'em up para 1 ou 2 jogadores com as guerreiras do anime.
+
+[img]https://raw.githubusercontent.com/anondaniel/SailorMoon-Arcade-PTBR/main/07_Publicacao/imagens/mosaico.png[/img]
+
+[b]Status:[/b] traduzido e testado — zerei o jogo com a tradução no Switch (RetroArch/FBNeo) e também testei no MAME.
+
+[b]O que foi traduzido[/b]
+[list]
+[li]Interface: Cred., Insira Ficha, Pulse Start, Selecione, Continua?, Aguarde..., Seu Nome, RECORDES e POPULARIDADE.[/li]
+[li]O aviso legal da abertura.[/li]
+[li]As telas de fase: FASE n COMECA, CHEFE, ZERADA, FASE FINAL, OS 4 GRANDES e ULTIMO CHEFE.[/li]
+[li]Os cargos dos créditos da equipe (70 textos no total).[/li]
+[/list]
+
+[b]Atenção — sem acentos:[/b] o jogo não tem as letras acentuadas e os códigos acima de 0x80 viram caracteres japoneses na tela, então o texto é em ASCII ("COMECA", "operacao"). Continuam em inglês os nomes de pessoas, chefes e heroínas, o modo de teste e os logos (que são gráficos).
+
+[b]Como aplicar[/b]
+Use o conjunto [b]sailormnu[/b] do MAME/FBNeo (versão USA). O patch muda só o arquivo [b]bpsm945a.u45[/b] (CRC32 original 898C9515, depois do patch D429F659). Aplique o .bps (ou o .ips) nele e compacte de novo como sailormnu.zip. O LEIAME traz os hashes (CRC32, MD5 e SHA-1) e o passo a passo para o MAME e para o RetroArch com FBNeo — inclusive no Switch, usando a pasta fbneo/patched e a opção "Allow patched romsets".
+
+[b]Download (patches BPS e IPS + leia-me):[/b]
+[url=https://github.com/anondaniel/SailorMoon-Arcade-PTBR/releases]https://github.com/anondaniel/SailorMoon-Arcade-PTBR/releases[/url]
+
+Código-fonte e ferramentas: [url=https://github.com/anondaniel/SailorMoon-Arcade-PTBR]github.com/anondaniel/SailorMoon-Arcade-PTBR[/url]
+
+Como sempre, não distribuo a ROM — só os patches, que você aplica no seu próprio conjunto.
+
+[b]Créditos:[/b] tradução e hacking — Daniel Figueira. Jogo original: Banpresto/Gazelle, baseado na obra de Naoko Takeuchi.

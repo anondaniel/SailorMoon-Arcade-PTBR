@@ -1,0 +1,19 @@
+# ROMs, conjuntos do jogo, saves e arquivos gerados: nunca no git
+00_Original/
+01_ROM/
+04_Graficos/capturas/
+_extraido/
+_teste/
+*.zip
+*.srm
+*.sav
+*.state
+*.mss
+*.nv
+*.bin
+*.ips
+*.bps
+__pycache__/
+.ai-memory.toml
+cfg/
+nvram/
